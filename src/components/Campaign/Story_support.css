@@ -1,0 +1,6 @@
+.campaign-page{
+    display:flex;
+    flex-direction:column;
+    background-color:red;
+    padding-top:100px
+}

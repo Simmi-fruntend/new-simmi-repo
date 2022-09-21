@@ -1,0 +1,163 @@
+.broderline{
+    border-top: 1px solid #FF5C00;
+   
+}
+.mainBox{
+    margin-top:'30px'
+}
+.textbox{
+    width:696px;
+    height:'213px';
+    /* background-color:red; */
+}
+.text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: regular;
+    font: size 24px;
+    line-height: 100%;
+    color:#000000
+}
+.readmoreButton{
+    margin-top: 32px;
+    margin-left: 254px;
+    width:257px;
+    height:79px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 50px #FFFFFF);
+border-radius: 42.5px;
+}
+.grid2div1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 11pxpx;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.avatardiv{
+    width: 50px;
+height: 50px;
+margin-right: 40px;
+}
+.nametypo{
+    width: 54px;
+height: 29px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+margin-right: 361px;
+
+
+color: #000000;
+}
+.boxtypo1{
+    margin-left: 361px;
+    width: 90px;
+height: 29px;
+}
+.nametypo1{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.showmore{
+    width: 292px;
+height: 79px;
+margin-left: 150px;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 50px #FFFFFF);
+border-radius: 42.5px;
+}
+.shomoretypo{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.griditem2box{
+display: flex;
+flex-direction: column;
+}
+.griditem2typosdiv{
+    display: flex;
+    flex-direction: row;
+    }
+.griditem2typos1{
+        margin-left: 74px;
+        width: 283px;
+        height:40px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #000000;
+    }
+.griditem2typos2{
+    padding-left: 204px;
+    width:136px;
+    height:40px;
+}
+.griditem2typos3{
+    padding-left:27px;
+    width:45px;
+    height:45px;
+    background-color: rgba(255, 126, 6, 0.3);
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #A0A0A0;
+}
+.texteditor{
+    width: 700px;
+    margin-buttom: 20px;
+}
+.editorline{
+    width: 700px;
+    border: 1px solid #FF5C00;
+    height:0px;
+    margin-bottom: 30px;
+}
+.supportingDocs{
+    margin-top: 33px;
+    width:376px;
+    height:40px;
+}
+.inntro{
+    Width :698px;
+Height :76px
+}
+.inntrotype{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #555353;
+}

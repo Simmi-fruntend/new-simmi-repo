@@ -1,0 +1,179 @@
+.mainBox {
+  width: 100%;
+  
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+}
+
+.logo {
+  /* margin-top: 74.59px; */
+  margin-left: 122px;
+  width: 92px;
+  height: 94.28px;
+}
+.grid1 {
+  display: flex;
+  flex-direction: column;
+}
+.typobox1 {
+  width: 399px;
+  height: 24px;
+  margin-top: 13.13px;
+  margin-left: 122px;
+}
+.typobox2 {
+  width: 399px;
+  height: 23px;
+  margin-top: 10px;
+  margin-left: 122px;
+}
+.typo1 {
+  font-family: "Inter";
+  font-style: Bold;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 54px;
+
+  color: #000000;
+}
+.typo2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.textfield {
+  /* margin-left: 122px; */
+  margin-top: 10px;
+  margin-bottom: 23px;
+  margin-right: 878px;
+  height: 50px;
+  width: 512px;
+}
+.lasttextfield {
+  /* margin-left: 122px; */
+  margin-top: 10px;
+  margin-bottom: 23px;
+  height: 50px;
+  width: 512px;
+  margin-right: 878px;
+}
+
+.grid2 {
+  width: 756px;
+  height: 715px;
+  /* height: 100%; */
+  display: flex;
+  /* margin-top: 52px; */
+  /* margin-right: 100px; */
+  flex-direction: column;
+  background-image: url("../Assets/loginpic.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  justify-content: center;
+}
+
+.grid2_child {
+  /* margin-top: 485px; */
+  /* margin: 485px 59px 61px 59px; */
+  width: 638px;
+  height: 436px;
+  background: linear-gradient(
+    111.75deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0.25) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+.submitButton {
+  width: 512px;
+  height: 70px;
+  background-color: #ea9223;
+}
+.googleButton {
+  width: 512px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.googleButton img {
+  width: 29px;
+  height: 30px;
+  margin-left: 110px;
+}
+.googleTypo {
+  margin-left: 29px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+.googleTypo>div {
+  width: 100%;
+  height: 100%;
+}
+.googleTypo div button {
+  width: inherit;
+  height: inherit;
+  justify-content: center !important;
+  font-size: 1rem !important;
+}
+.typoButton {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.grid_child_intro {
+  margin: 38px 25.58px 218px 36px;
+  width: 576.42px;
+  height: 180px;
+}
+.grid_child_intro_typo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 40px !important;
+  line-height: 150% !important;
+  /* or 60px */
+
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* .classes.grid_child_intro_main{
+        margin: 38px 25.58px 218px 36px;
+        width: 576.42px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    } */
+.errorClass {
+  width: 399px;
+  height: 44px;
+  margin-top: 9.13px;
+  margin-left: 122px;
+}
+.checkboxlink {
+  display: flex;
+  flex-direction: row;
+}

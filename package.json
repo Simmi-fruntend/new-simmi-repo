@@ -1,0 +1,90 @@
+{
+  "name": "all",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@mobiscroll/react-lite": "^4.10.9",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
+    "@mui/styles": "^5.9.3",
+    "@tailwindcss/forms": "^0.5.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.8",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "cacache": "^16.1.3",
+    "country-state-city": "^3.0.6",
+    "dompurify": "^2.3.10",
+    "draft-convert": "^2.1.12",
+    "draft-js": "^0.11.7",
+    "form-data": "^4.0.0",
+    "framer-motion": "^7.2.1",
+    "gapi-script": "^1.2.0",
+    "gh-pages": "^4.0.0",
+    "interweave": "^13.0.0",
+    "js-cookie": "^3.0.1",
+    "package.json": "^2.0.1",
+    "postcss": "^8.4.16",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-drag-drop-files": "^2.3.7",
+    "react-google-login": "^5.2.2",
+    "react-hook-form": "^7.34.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-loader-spinner": "^5.1.7-beta.1",
+    "react-loading": "^2.0.3",
+    "react-multi-carousel": "^2.8.2",
+    "react-owl-carousel": "^2.3.3",
+    "react-phone-number-input": "^3.2.7",
+    "react-redux": "^8.0.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "react-spring": "^9.5.2",
+    "react-transition-group": "^4.4.5",
+    "reactstrap": "^9.1.3",
+    "sass": "^1.54.5",
+    "styled-components": "^5.3.5",
+    "tailwindcss": "^3.1.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}

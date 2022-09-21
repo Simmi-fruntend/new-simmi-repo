@@ -1,0 +1,72 @@
+.introduction {
+  margin-top: 43px;
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.816rem;
+    text-align: center;
+    width: 912px;
+    margin: 23px auto;
+  }
+  .donateNow {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    button {
+      width: 174.58px;
+      height: 179.89px;
+      background: linear-gradient(180deg, #ffa113 0%, #ff5038 100%);
+      border: 15px solid #fff;
+      border-radius: 50%;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 39px;
+      color: #ffffff;
+      position: absolute;
+    }
+  }
+  .carousal1 {
+    margin-top: 86px;
+    margin-bottom: 57px;
+    position: relative;
+    img {
+      height: 25.265rem;
+    }
+    .chatWithUs {
+      position: absolute;
+      bottom: 25px;
+      right: 25px;
+      button {
+        width: 171.55px;
+        height: 54px;
+        background: linear-gradient(
+          180deg,
+          #ff7e06 0%,
+          rgba(255, 36, 6, 0.96) 100%
+        );
+        border-radius: 25px;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        z-index: 10;
+      }
+      span.chatTale {
+        position: absolute;
+        cursor: pointer;
+        bottom: -4px;
+        right: -19px;
+        z-index: 5;
+        transform: matrix(1, 0.12, -0.02, 0.99, 0, 0);
+        width: 44.66px;
+        height: 27.22px;
+        background: url("../../../assests/chat.png");
+      }
+    }
+  }
+}

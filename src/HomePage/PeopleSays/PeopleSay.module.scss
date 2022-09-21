@@ -1,0 +1,86 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../../assests/JejuMyeongjo-Regular.ttf);
+}
+
+.peopleSays_container {
+  height: 804px;
+  background: #302f2e;
+  h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #ffffff;
+    text-align: center;
+    padding: 111px 0 58px 0;
+    span {
+      color: #ff8c21;
+    }
+  }
+  .peoples_comments {
+    height: 300px;
+    max-width: 1210px;
+    background: url("../../../assests/people.png") no-repeat;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 11px rgba(255, 255, 255, 0.38));
+    .quotes {
+      font-family: "myFirstFont" !important;
+      position: absolute;
+      top: 107px;
+      left: 39.21px;
+      color: white;
+      font-weight: 400;
+      font-size: 96px;
+      line-height: 96px;
+      transform: matrix(0.98, 0.17, -0.22, 0.99, 0, 0);
+      z-index: 10;
+    }
+    p {
+      width: 1058.66px;
+      // height: 83px;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #ffffff;
+      margin: 0 auto;
+      padding-top: 52px;
+    }
+    .peoples_button {
+      text-align: right;
+      button {
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #ffffff;
+        padding-right: 68px;
+        border: none;
+        background: transparent;
+      }
+    }
+  }
+  .PeopleSay_image_container {
+    width: 1192px;
+    margin: 0 auto;
+    padding-top: 27px;
+    justify-content: space-evenly;
+    .PeopleSay_image_box {
+      text-align: center;
+      cursor: pointer;
+      background: initial;
+      border: none;
+      div {
+        width: 146.46px;
+        height: 125px;
+        border-radius: 50%;
+        background-position: center;
+      }
+      p {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 23px;
+        color: #fff;
+      }
+    }
+  }
+}

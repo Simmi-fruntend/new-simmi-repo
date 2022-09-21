@@ -1,0 +1,33 @@
+.container{
+    background-image: url("../../../assests/whysimmibackground.png");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    h2{
+        margin-top: 10px;
+        display: flex;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .body{
+        .carousel{
+            margin-top: 40px;
+            .innercarousel{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                padding-left: 50px;
+                .item{
+                    padding-left: 150px;
+                }
+                h5{
+                    margin-top: 15px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.maindiv{
+    width: 100%;
+    height: auto;
+     display: flex;
+    flex-direction: column;
+    position :relative
+    
+    
+  
+}
+.ourteam{
+  text-align: center;
+  width: 100%;
+height: 58px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+margin-top: 77px;
+
+}
+.teams{
+    display: flex;
+    flex-direction: row;
+}
+.buttonchild{
+    display:flex;
+    flex-direction: row;
+    margin-left: 86px;
+    margin-top: 50px;
+
+
+}
+.text{
+    width: 84px;
+height: 44px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FF8C21;
+
+}
+.buttonchild img{
+    width: 30px;
+height: 30px;
+margin-left: 102px;
+
+}
+
+.imgddiv{
+     display:flex;
+    flex-direction: row; 
+   
+
+
+    
+ 
+    
+}
+/* .teamdata{
+    height:400px
+} */
+
+.name{
+    width: 176px;
+height: 30px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+margin-left: 13px;
+color: #000000;
+}
+.designation{
+    width: 74px;
+height: 19px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FF7E06;
+padding-top: 8px;
+margin-left: 50px;
+
+}
+/* .text{
+margin-left: 16px;
+} */

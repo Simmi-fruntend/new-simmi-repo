@@ -1,0 +1,21 @@
+.goToTop_box {
+  position: fixed;
+  background-color: #fa9247;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 90vh;
+  left: 95vw;
+  border-radius: 50%;
+  z-index: 1000000;
+  border: none;
+  &:hover {
+    background-color: #ff7d1f;
+  }
+  svg {
+    font-size: 50px;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,143 @@
+@mixin titleH3 {
+  width: 214px;
+  height: 90px;
+  margin: 0 auto 33px auto;
+  background: #ff8c21;
+  border: 11px solid #ffffff;
+  box-shadow: 7px 4px 16px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 68px;
+  color: #ffffff;
+}
+
+@mixin projects {
+  font-family: "Open Sans", sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mission_container {
+  background: url("../../../assests/missionBg.png") no-repeat bottom;
+  background-size: cover;
+  position: relative;
+  .missionEllipse {
+    position: absolute;
+    img:not(:last-child) {
+      position: absolute;
+      top: 0;
+    }
+    img:not(:first-child) {
+      position: absolute;
+      top: 106px;
+    }
+  }
+  h2 {
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 119px;
+    span {
+      color: #ff8c21;
+    }
+  }
+  .mission,
+  .vission {
+    margin-top: 52px;
+    h3 {
+      @include titleH3;
+    }
+    .details {
+      display: flex;
+      justify-content: flex-end;
+      p {
+        width: 489px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        // margin-left: 100%;
+      }
+    }
+  }
+  .mission {
+    .missionPic {
+      width: 546px;
+      height: 419px;
+      margin-top: 68px;
+      margin-left: 109px;
+    }
+  }
+  .vission {
+    position: relative;
+    .visionEllipse {
+      // position: absolute;
+      img:not(:last-child) {
+        position: absolute;
+        right: 0;
+      }
+      img:not(:first-child) {
+        position: absolute;
+        right: 0px;
+        top: 100px;
+      }
+    }
+    justify-content: center;
+    h3 {
+      margin: 0 auto 23px auto;
+    }
+    .details {
+      margin: 0 auto;
+      padding-left: 375px;
+      p {
+        width: 561px;
+      }
+    }
+  }
+  // projects
+
+  .projects > div {
+    flex-direction: column;
+    // align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    // width: 355.2px;
+    // height: 213px;
+  }
+  .projects {
+    padding-top: 77px;
+    padding-bottom: 135px;
+
+    .project_one {
+      background-color: #ff5c00;
+      width: 355.2px;
+      height: 213px;
+    }
+    .project_two {
+      background-color: rgba(255, 96, 6, 0.71);
+      width: 298px;
+      height: 213px;
+      margin: 0 11.8px;
+    }
+    .project_three {
+      background: #ff6b00;
+      width: 380px;
+      height: 213px;
+    }
+    .projects_number {
+      @include projects;
+      color: #ffffff;
+      font-size: 40px;
+      line-height: 54px;
+    }
+
+    .projects_category {
+      @include projects;
+      font-size: 30px;
+      line-height: 41px;
+    }
+  }
+}

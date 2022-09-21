@@ -1,0 +1,51 @@
+.whySimmi {
+  margin-top: 165px !important;
+  height: 434px;
+  background-color: #302f2e;
+  position: relative;
+  justify-content: flex-end;
+  div {
+    background-color: inherit;
+    color: #fff;
+  }
+  .WhySimmi_support {
+    background-color: #fff;
+    width: 697px;
+    height: 446px;
+    filter: drop-shadow(4px 0px 8px rgba(0, 0, 0, 0.25));
+    padding: 50px 47px 51px 51px !important;
+    position: absolute;
+    top: -78px;
+    left: 51px;
+    align-content: space-between;
+    justify-content: space-between;
+    div {
+      width: 187.82px;
+      height: 158px;
+      background: linear-gradient(180deg, #f98c56 0%, #fa6d5a 97.92%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      justify-content: space-evenly;
+      text-align: center;
+      font-weight: 500;
+      line-height: 19.36px;
+      p {
+        padding: 0 18px;
+      }
+    }
+  }
+  .WhySimmi_foundation {
+    // width: 524.32px;
+    height: 155.63px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: right;
+    margin-top: 116px;
+    padding-right: 58.68px;
+    box-shadow: none;
+    span {
+        color: #FF7723;
+    }
+  }
+}

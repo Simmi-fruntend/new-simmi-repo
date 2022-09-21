@@ -1,0 +1,133 @@
+.maindiv{
+    width: 100%;
+    height:447px;
+    display: flex;
+    flex-direction: column;
+}
+.mainfooter{
+    width:100%;
+    height:397px;
+    background: #FFFFFF;
+box-shadow: 1px -7px 27px -6px rgba(255, 140, 33, 0.3);
+
+}
+.secfooter{
+    width:100%;
+    height:50px;
+    
+background: rgba(0, 0, 0, 0.86);
+}
+.mainfootterrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footerrow1{
+    display: flex;
+    flex-direction: column;
+}
+.typo1{
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 195px;
+height: 30px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+
+color: rgba(0, 0, 0, 0.86);
+}
+.type{
+    margin-top: 30px;
+}
+.type img{
+margin-left: 30px;
+/* margin-top: 39px; */
+width: 25px;
+height: 28px;
+}
+.type span{
+    width: 121px;
+height: 27px;
+margin-left: 30px;
+/* margin-top: 50px; */
+}
+.footerrow2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+margin-left: 300px;
+}
+.buttondiv{
+    width: 300px;
+height: 75px;
+background: #FF8C21;
+border-radius: 40px;
+
+}
+.buttontypo{
+    color: #FFFFFF;
+}
+.mydiv{
+    margin-top: 22px;
+    width: 298px;
+height: 27px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.58);
+
+
+}
+.footerrow3{
+    width: 614px;
+height: 295px;
+background: #EEEEEE;
+border-radius: 20px;
+margin-top: 40px;
+margin-left: 93px;
+display: flex;
+flex-direction: row;
+}
+
+.footertow3col1{
+    display: flex;
+    flex-direction: column;
+}
+.footertow3col1 a{
+   
+    /* color: black; */
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    margin-left: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: rgba(0, 0, 0, 0.74);
+
+}
+.logodiv img{
+    margin-top: 11px;
+    margin-left: 14px;
+    margin-right: 15px;
+    width:36px;
+    height: 37px;
+}
+.footerrow3col2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 67px;
+}
+.datadiv{
+    margin-top: 12px;
+}

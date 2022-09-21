@@ -1,0 +1,21 @@
+.social_container {
+  padding-top: 292px;
+  padding-bottom: 35px;
+  .social {
+    height: 434px;
+    padding: 0 104px 0 16px;
+    background: #302f2e;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 58px;
+      color: #ffffff;
+      span {
+        color: #ff8c21;
+      }
+    }
+  }
+}

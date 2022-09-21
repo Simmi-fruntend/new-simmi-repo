@@ -1,0 +1,86 @@
+.stories_container {
+  height: 1050px;
+  background: url("../../../assests/missionBg.png") no-repeat bottom;
+  background-size: cover;
+  h2 {
+    padding-top: 109px;
+    padding-bottom: 128px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    span {
+      color: #ff8c21;
+      font-weight: 700;
+    }
+  }
+  .stories_box {
+    width: 1027px;
+    height: 556.47px;
+    margin: 0 auto;
+    .carousel_item {
+      height: 556px;
+      .stories_image {
+        position: absolute;
+        width: 387px;
+        height: 496.85px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+        z-index: 10;
+        img {
+          height: 100%;
+          border-radius: 16px;
+        }
+      }
+      .stories_details {
+        width: 896px;
+        height: 495.74px;
+        position: absolute;
+        right: 12px;
+        bottom: 15px;
+        z-index: 8;
+        background: #ffffff;
+        box-shadow: 0px 4px 8px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+        padding-left: 308px;
+        h6 {
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 36px;
+          color: rgba(31, 29, 29, 0.79);
+          padding: 59.62px 45px 53px 0;
+        }
+        p {
+          width: 486px;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          color: rgba(0, 0, 0, 0.49);
+          padding-bottom: 33.12px;
+        }
+        button {
+          font-weight: 500;
+          font-size: 25px;
+          line-height: 30px;
+          text-align: center;
+          color: #ff8c21;
+        }
+      }
+    }
+  }
+  .stories_seeAll {
+    width: 1027px;
+    padding-top: 38.64px;
+    margin: 0 auto;
+    text-align: right;
+    button {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 30px;
+      color: #212529;
+      background: url("../../../assests/arrow.png") no-repeat;
+      background-position: center right;
+      padding-right: 20px;
+    }
+  }
+}

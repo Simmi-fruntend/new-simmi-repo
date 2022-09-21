@@ -1,0 +1,193 @@
+.mainBox{
+  
+   margin-left: 10px;
+    width: 1500px;
+    /* height: 100vh; */
+    background-image: url('../Images/backgroundimage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: lighten;
+  
+
+    
+}
+.logoBox{
+    width: 1500px;
+    height: 279px;
+    background: rgba(0, 0, 0, 0.64);  
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+   
+    height: 200px;
+    padding-left: 400px;
+padding-top: 25px;
+
+    
+}
+.titleBox{
+    width: 1220px;
+height: 108px;
+z-index: 3;
+margin-left: 50px;
+}
+.logoText{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.typosbox{
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 17px;
+}
+.typo1{
+    width: 157px;
+height: 42px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 42px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.typo2{
+    width: 274px;
+height: 42px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+display: flex;
+align-items: center;
+
+color: #FF8C21;
+}
+.introBox{
+    width: 1397px;
+height: 84px;
+margin-left:50px;
+margin-top:16px;
+
+}
+.introText{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+.formBox{
+  margin-right: 50px;
+}
+.step{
+    /* margin-top: px; */
+    width: 119px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+
+color: #FF8C21;
+
+}
+
+.declaration{
+    /* width: 795px; */
+height: 70px;
+display:flex;
+flex-direction: row;
+background-color: wheat;
+align-content: center;
+
+}
+.declarationText{
+    padding-left: 33px;
+    padding-top: 15px;
+    width:302px;
+}
+.dropdown{
+    margin-top: 12px;
+    display:flex;
+    flex-direction: row;
+    width: 300px;
+
+}
+.dropdown img{
+    width: 36px;
+height: 40px;
+}
+.checkBox{
+    margin-top: 242px;
+}
+.button{
+    width: 310px;
+height: 61px;
+background: #FF8C21;
+border: 1px solid #000000;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+margin-top: 20px;
+}
+.imagegrid{
+    height:900px;
+    width:700px;
+   
+    margin-right: 100px;
+}
+.mainpicdiv{
+    height:222px;
+    width:785px;
+    display: flex;
+    flex-direction: row;
+
+}
+.subpic{
+    display: flex;
+    flex-direction: column;
+}
+/* .subpic1{
+    display: flex;
+    flex-direction: column;
+    margin-right:3px;
+    margin-left: -3px;
+} */
+.upload{
+
+background: rgba(255, 140, 33, 0.5);
+border: 1px dashed #000000;
+box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+.texteditor{
+width: 676px;
+height: 122px;
+/* margin-bottom: 33px; */
+/* height: 284px; */
+}

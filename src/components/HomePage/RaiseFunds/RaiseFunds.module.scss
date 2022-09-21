@@ -1,0 +1,61 @@
+.container{
+  height: 597px;
+  // width: 1512px;
+  left: 0px;
+  top: 2747px;
+  border-radius: 0px;
+  background-image: url("../../../assests/background-funds.png");
+  h3 {
+    display: flex;
+    flex-direction: row;
+  }
+  h3:before, h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+    opacity: 0.2;
+  }
+  h3:before {
+    margin-right: 20px
+  }
+  h3:after {
+    margin-left: 20px
+  }
+  p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top:40px ;
+    font-size: 20px;
+    opacity: 70%;
+  }
+  .raiseFunds_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 850px;
+    height: 400px;
+    .raiseFunds_details{
+      margin-top: 1px;
+      margin-left: 0.5px;
+      img{
+        height: 200px;
+        width: 200px;
+        left: 295px;
+        top: 2862px;
+        border-radius: 15px;
+
+      }
+      margin-right: 0.5px;
+      }
+    }
+}
+
+

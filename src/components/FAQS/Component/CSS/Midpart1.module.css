@@ -1,0 +1,82 @@
+.quries_container {
+  margin-top: 65px !important;
+  margin-bottom: 44px !important;
+  position: relative;
+  padding-left: 129px;
+  padding-right: 129px;
+}
+.midpart1_h2 {
+  font-weight: 500 !important;
+  font-size: 35px !important;
+  line-height: 42px !important;
+  color: rgba(0, 0, 0, 0.86) !important;
+  margin-top: 61px !important;
+  margin-bottom: 27px !important;
+}
+.midpart1_p {
+  font-weight: 400 !important;
+  font-size: 30px !important;
+  line-height: 36px !important;
+  color: rgba(0, 0, 0, 0.58) !important;
+  text-align: center;
+}
+.box1 {
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center;
+  height: 511px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.74);
+  border-right: 2px solid rgba(0, 0, 0, 0.74);
+}
+
+.box2 {
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center;
+  height: 511px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.74);
+}
+
+.box3 {
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center;
+  height: 511px;
+  border-right: 2px solid rgba(0, 0, 0, 0.74);
+}
+
+.box4 {
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center;
+  height: 511px;
+}
+
+.forOrganizers_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 315px;
+  height: 315px;
+  background: #ffffff;
+  border: 3px solid #ff8c21;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.midpart1_h3 {
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  line-height: 36px !important;
+  color: rgba(0, 0, 0, 0.86);
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+.midpart1_h4 {
+  font-weight: 400;
+  font-size: 25px !important;
+  line-height: 30px !important;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.58);
+}

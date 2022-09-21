@@ -1,0 +1,181 @@
+.ngoRegistration_container {
+  height: 290px;
+  position: relative;
+  .background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 140, 33, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 80.56%,
+      rgba(0, 0, 0, 0.5) 98.44%
+    );
+    opacity: 0.59;
+    filter: blur(4px);
+  }
+  .ngoRegistration_header {
+    align-items: center;
+    height: 100%;
+    padding-left: 136px;
+    .ngoRegistration_logo {
+      padding-right: 41px;
+      z-index: 2;
+      img {
+        width: 220px;
+        height: 208px;
+      }
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58px;
+      color: #000000;
+      margin-bottom: 19px;
+    }
+    h5 {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #ffffff;
+    }
+  }
+  .ngoRegistration_form_container {
+    background: #f3f3f3;
+    width: 100%;
+    padding-top: 59px;
+    .ngoRegistration_form {
+      margin: 0 auto;
+      background: #ffffff;
+      width: 1233px;
+      // height: 1497px;
+      border-radius: 10px;
+      padding-left: 71px;
+      padding-right: 84px;
+      p {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+        color: #000000;
+        span {
+          color: #f93800;
+        }
+      }
+      h6 {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 31px;
+      }
+      input,
+      select,
+      textarea {
+        width: 100%;
+        height: 78px;
+        border-radius: 5px;
+        padding-left: 21px;
+        border: 0.5px solid #000000;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 31px;
+      }
+      select {
+        width: 100%;
+        height: 58px;
+        border: none;
+        background: #f4f4f4;
+      }
+      .ngoType_box {
+        height: 120px;
+        background: #f4f4f4;
+        border-radius: 6px;
+        align-items: center;
+        justify-content: space-around;
+        select {
+          width: 291px;
+          height: 59px;
+          background: #ffffff;
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+          border-radius: 3px;
+          font-weight: 500;
+          font-size: 21px;
+          line-height: 25px;
+          color: #ff8c21;
+          outline: none !important;
+        }
+      }
+      .uploadImg_box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 0.5px solid #000000;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        .uploadImg_p {
+          font-size: 16px;
+          line-height: 31px;
+          color: rgba(85, 83, 83, 0.57);
+        }
+      }
+      .addLines,
+      .removeLines {
+        width: 68px;
+        height: 67px;
+        font-size: 48px;
+        line-height: 58px;
+        color: #ffffff;
+        border: none;
+        border-radius: 50%;
+      }
+      .addLines {
+        background: #d9d9d9;
+      }
+      .removeLines {
+        background: #d32f2f;
+      }
+      .back_button {
+        width: 174px;
+        height: 78px;
+        background: #ececec;
+        border-radius: 9px;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 31px;
+        color: #555353;
+      }
+      .reset_button {
+        width: 174px;
+        height: 78px;
+        margin-right: 29px;
+        background: #ffffff;
+        border: 2px solid #333333;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 31px;
+        color: #333333;
+      }
+      .submit_button {
+        width: 308px;
+        height: 78px;
+        background: #ff8c21;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+    .footer {
+      margin-top: 79px;
+      padding-bottom: 16px;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 135%;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.cards{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    /* margin-left: 67px; */
+}
+.Cards_cards__qmGwh{
+    justify-content: space-around;
+}

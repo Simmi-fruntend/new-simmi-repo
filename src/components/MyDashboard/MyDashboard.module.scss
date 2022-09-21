@@ -1,0 +1,176 @@
+.myDashboard_container {
+  .myDashboard_nav {
+    background-image: url("../../assests/myDashboardNavBg.png");
+    align-content: flex-start;
+    .myDashboard_profile {
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      height: 47%;
+      .myDashboard_dp {
+        width: 192.8px;
+        height: 192.8px;
+        background-position: center;
+        border-radius: 50%;
+        margin-top: 77px;
+        margin-bottom: 33px;
+        border: 3px solid #ffab40;
+      }
+      h3 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        padding-bottom: 8px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 29px;
+      }
+      hr {
+        height: 1px;
+        background: rgba(0, 0, 0, 0.1);
+        width: 100%;
+      }
+    }
+    .myDashboard_lists {
+      flex-direction: column;
+      align-content: center;
+      button {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        color: rgba(0, 0, 0, 0.5);
+        border: none;
+        width: 100%;
+        span {
+          margin-right: 26px;
+        }
+      }
+    }
+  }
+  .myDashboard_body {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 75px;
+    padding-right: 75px;
+    .myDashboard_head {
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      padding-top: 80px;
+      padding-bottom: 60px;
+      background-color: white;
+      h2 {
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 58px;
+      }
+      .myDashboard_searchBox {
+        background: #f4f4f4;
+        border: 1.70655px solid rgba(51, 51, 51, 0.2);
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        height: 58px;
+        input {
+          padding-left: 15px;
+        }
+        button {
+          background: #ff8c21;
+          width: 72px;
+          border-radius: 0px 5px 5px 0px;
+        }
+      }
+    }
+    .myDashboard_content {
+      height: 974px;
+      background: #ffffff;
+      align-content: flex-start;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      overflow: hidden;
+      .myDashboard_content_top {
+        justify-content: space-between;
+        padding: 34px 50px 28px 25px;
+        h4 {
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 36px;
+        }
+      }
+      hr {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        height: 1px;
+        opacity: 1;
+      }
+      .myDashboard_content_bottom {
+        width: 100%;
+        min-height: 873px;
+        // padding-left: 25px;
+        // padding-right: 70px;
+        // padding-top: 44px;
+        .detail {
+          justify-content: space-between;
+          flex-direction: row;
+          align-items: center;
+          flex-wrap: nowrap;
+          height: 131px;
+          .projects_details {
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: nowrap;
+            // width: 345px;
+            height: 131px;
+            background: rgba(255, 255, 255, 0.72);
+            border: 0.5px solid #272727;
+            border-radius: 8px;
+            .project_image {
+              width: 128px;
+              height: 112px;
+              overflow: hidden;
+              background-color: grey;
+              filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+              border-radius: 8px;
+            }
+            p {
+              font-weight: 500;
+              font-size: 29px;
+              line-height: 35px;
+              text-align: center;
+              text-decoration-line: underline;
+              color: #ff5c00;
+            }
+          }
+        }
+        .myDashboard_content_bottom_flexColumn {
+          flex-direction: column;
+          align-content: center;
+          justify-content: space-evenly;
+          // height: 131px;
+          .progressBar {
+            width: inherit;
+            height: 15px;
+            background: #d9d9d9;
+            border-radius: 16px;
+            overflow: hidden;
+            div {
+              height: inherit;
+              background-color: #ff5c00;
+            }
+          }
+          .fund_raised{
+            justify-content: space-between;
+          }
+        }
+
+        hr {
+          margin-top: 44px;
+        }
+      }
+    }
+  }
+}

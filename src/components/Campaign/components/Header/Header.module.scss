@@ -1,0 +1,72 @@
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  button {
+    text-transform: capitalize;
+    padding: 8px;
+  }
+  .logo_box {
+    border: none;
+    background: transparent;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    li {
+      float: left;
+      padding-right: 20px;
+      a {
+        display: block;
+        font-size: 20px;
+        line-height: 24px;
+        color: #555353;
+        text-decoration: none;
+        padding: 5px;
+      }
+    }
+  }
+  .startFundraiser {
+    font-weight: 600;
+    font-size: 16.95px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+    border: 3px solid #ff8c21;
+    border-radius: 10px;
+    margin-right: 8px;
+    padding: 7px;
+  }
+  .donate {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #ff8c21;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 8px;
+    border-radius: 10px;
+    &:hover {
+    background: #ffffff;
+    color: #ff8c21;
+    }
+  }
+  .logIn {
+    background: #555353;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    &:hover{
+      color: #555353;
+    }
+  }
+}

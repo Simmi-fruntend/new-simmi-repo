@@ -1,0 +1,97 @@
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button,
+span {
+  font-family: "inter", sans-serif !important;
+}
+button {
+  text-transform: capitalize !important;
+}
+
+h1 {
+  text-align: center;
+  line-height: 3.631rem !important;
+  span {
+    color: #ff8c21;
+    font-weight: 700;
+  }
+}
+div.homePage {
+  position: relative;
+}
+
+.carousal1-indicator {
+  bottom: -83px !important;
+  button {
+    background-color: #a9a9a9 !important;
+    opacity: 1 !important;
+    transition: opacity 0.6s ease;
+    width: 49.97px !important;
+    height: 7px !important;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  button.active {
+    background-color: #ff8c21 !important;
+  }
+}
+
+// Story Box carousel buttons
+.Stories_stories_box__xi8a7.MuiBox-root.css-0 {
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 69.56px;
+    height: 63px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .carousel-control-prev {
+    left: -131.56px;
+    span.carousel-control-prev-icon {
+      background-image: url("../../assests/previous.png") !important;
+    }
+  }
+  .carousel-control-next {
+    right: -131.56px;
+    span.carousel-control-next-icon {
+      background-image: url("../../assests/next.png") !important;
+    }
+  }
+}
+
+.Volunteers_volunteers_container__ImUix {
+  .owl-stage-outer {
+    padding-top: 2px;
+    height: 574px;
+  }
+  .owl-nav {
+    // display: block !important;
+    position: absolute;
+    right: 0;
+    bottom: -41px;
+    button {
+      width: 53.21px !important;
+      height: 51.45px !important;
+      border-radius: 50% !important;
+      &:hover {
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25),
+          -2px -2px 20px rgba(0, 0, 0, 0.15);
+      }
+      span {
+        display: none;
+      }
+    }
+    .owl-next {
+      background: url("../../assests/nextVol.png") no-repeat white center !important;
+    }
+    .owl-prev {
+      background: url("../../assests/preVol.png") no-repeat white center !important;
+    }
+  }
+}
